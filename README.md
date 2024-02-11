@@ -1,5 +1,6 @@
 Bamboo-Card Test Task HackerNews API
 
+# BambooCardTestTask 
 GET top n stories, the default stories count to take is 22, to change it please use
 --header 'NumberToTake: 22'
 
@@ -12,11 +13,16 @@ Sample request: GET /hackernews --header 'DisableCache: true' To change number o
 
 Enhancements:
 -Swagger
+
 -AutoMapper
+
 -DisableCache
-   - curl GET 'http://localhost:4300/hackernews' --header 'DisableCache: true'
+   curl GET 'http://localhost:4300/hackernews' --header 'DisableCache: true'
+   
 -CacheClean
-    - curl GET 'http://localhost:4300/clean'
+   curl GET 'http://localhost:4300/clean'
+   
 -IntegrationTests
+
 -UnitTests
-"# BambooCardTestTask" 
+
